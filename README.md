@@ -38,7 +38,8 @@ Za pomocą komendy ``` git branch ``` możemy sprawdzić wszystkie dostępne ga�
 ![Przykład użycia komendy git branch](img/git_branch.jpg?raw=true)
 
 10. <b> Wprowadzanie zmian i commitowanie </b></br> 
-Na nowo utworzonej gałęzi wprowadzamy zmiany w plikach. Następnie zapisujemy je w repozytorium lokalnym, używając ``` git commit -m "Opis zmiany" -a ```
+Na nowo utworzonej gałęzi wprowadzamy zmiany w plikach. Następnie zapisujemy je w repozytorium lokalnym, używając ``` git commit -m "Opis zmiany" -a ``` </br>
+Jeśli trzeba dodać ręcznie nowe pliki, można to zrobić za pomocą ``` git add plik ```, bądź dodając wszystkie dostępne pliki ``` git add . ```
 
 11. <b> Wysyłanie zmian do repozytorium na GitHubie </b> 
 Aby wysłać zmiany na serwer, używamy ```git push```
