@@ -18,4 +18,5 @@ Repozytorium stworzone na potrzeby nauczenia się kożystania z gita za pomocą 
 10. Za pomocą komendy "git checkout nazwa" zmieniamy aktualny branch
 ![Przykład użycia komendy git branch](img/git_branch.jpg?raw=true)
 11. Na nowym branchu wprowadzamy zmiany i commitujemy za pomocą komendy "git commit -m "nazwa zmiany" -a
-12.
+12. Ostatnim krokiem aby wrzucić repo z powrotem na serwer musimy użyć komendy "git push"
+Uwaga! Jeżeli wyświetli Ci się błąd "The current branch nazwa brancha has no upstream branch." Wpisz: git push --set-upstream origin nazwa brancha
