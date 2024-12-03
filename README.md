@@ -10,8 +10,12 @@ Na początku tworzymy nowe repozytorium na stronie [GitHub](https://github.com)
 2. <b> Przemieszczanie się w terminalu </b></br>
 Otwieramy terminal i za pomocą komendy ``` cd ``` przechodzimy do katalogu, w którym chcemy sklonować repozytorium. </br>
 
+![Przykład użycia komendy cd](img/cd.jpg?raw=true)
+
 3. <b> Klonowanie repozytorium </b></br> 
 Używamy komendy ``` git clone link ``` gdzie "link" to adres URL naszego repozytorium z GitHuba.
+
+![Przykład użycia komendy git clone](img/git_clone.jpg?raw=true)
 
 4. <b> Logowanie do GitHuba </b></br> 
 Podczas klonowania może być wymagane logowanie do GitHuba.
@@ -30,6 +34,8 @@ Za pomocą komendy ``` git branch ``` możemy sprawdzić wszystkie dostępne ga�
 
 9. <b> Zmiana aktywnej gałęzi </b></br> 
 ``` git checkout nazwa ```
+
+![Przykład użycia komendy git branch](img/git_branch.jpg?raw=true)
 
 10. <b> Wprowadzanie zmian i commitowanie </b></br> 
 Na nowo utworzonej gałęzi wprowadzamy zmiany w plikach. Następnie zapisujemy je w repozytorium lokalnym, używając ``` git commit -m "Opis zmiany" -a ```
@@ -55,6 +61,7 @@ Po zakończeniu pobierania, upewnij się, że gałąź main zawiera najnowsze zm
 Po wykonaniu kroków przygotowawczych możesz przejść do samego scalenia. Użyj komendy ``` git merge nazwa-gałęzi ``` </br>
 Gdzie "nazwa-gałęzi" to gałąź, którą chcesz scalić z aktualnie aktywną gałęzią odbiorczą (np. main). </br>
 
-Te przygotowania zapewnią, że scalanie przebiegnie płynnie i bez konfliktów.
+![Przykład przygotowania do scalenia dwóch gałęzi](img/git_merge.jpg?raw=true)
 
-<!-- ![Przykład użycia komendy cd](img/cd.jpg?raw=true) -->
+
+Te przygotowania zapewnią, że scalanie przebiegnie płynnie i bez konfliktów.
